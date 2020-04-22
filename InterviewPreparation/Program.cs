@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using InterviewPreparation.CSharp_Reverse;
 
 namespace InterviewPreparation
 {
@@ -10,7 +11,12 @@ namespace InterviewPreparation
     {
         static void Main(string[] args)
         {
-            // some comment here
+            ReverseStringDemo();
+        }
+
+        private static void ReverseStringDemo()
+        {
+            Reverse.ReverseString();
         }
     }
 }
