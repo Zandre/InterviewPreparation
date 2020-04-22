@@ -10,6 +10,7 @@ namespace InterviewPreparation
     {
         static void Main(string[] args)
         {
+            // some comment here
         }
     }
 }
