@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using InterviewPreparation.CSharp_Reverse;
+﻿using InterviewPreparation.CSharp_Reverse;
 
 namespace InterviewPreparation
 {
@@ -11,12 +6,18 @@ namespace InterviewPreparation
     {
         static void Main(string[] args)
         {
-            ReverseStringDemo();
+            //ReverseStringDemo();
+            ReverseNumberDemo();
         }
 
         private static void ReverseStringDemo()
         {
             Reverse.ReverseString();
+        }
+
+        private static void ReverseNumberDemo()
+        {
+            Reverse.ReverseNumber();
         }
     }
 }
